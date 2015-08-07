@@ -1,0 +1,65 @@
+@import url("../fonts/fonts.css");
+
+html, body { 
+  margin: 0; padding: 0; height: 100%;
+  font: normal 14px/18px 'Swis721LtCnBTLight';
+  letter-spacing: 1px;
+}
+.entercontainer {
+	width: 990px;
+	margin: 0 auto;
+}
+.clearfloat {
+	clear: both;
+	display: block;
+}
+.sunbubble {
+	width: 665px;
+	margin: 0 auto;
+	position: relative;
+	z-index: -10;
+	bottom: -150px;
+}
+.enterbox {
+	position: relative;
+	bottom: -50px;
+	z-index: 1;
+}
+.bubble, .logolaundry{
+	float:left;
+}
+.sun, .logosun {
+	float:right;
+}
+.enterlogos {	
+	width: 400px;
+	position: relative;
+	z-index: 10;
+	bottom: 120px;
+	margin: 0 auto;
+}
+.entertext {
+	margin: 20px 0;
+	margin-bottom: 0;
+	text-align:center;
+}
+.enterfooter {
+	font-size: 11px;
+	text-transform:uppercase;
+	margin: 100px auto;
+	margin-bottom: 0;
+	text-align:center;
+}
+.bluetext, .bluetext a {
+	font-size: 13px;
+	color: #00b1eb;
+	text-decoration: none;
+}
+.orangetext , .orangetext a{
+	font-size: 13px;
+	color: #f7931e;
+	text-decoration: none;
+}
+.bluetext a:hover, .orangetext a:hover{
+	color: #000;
+}
